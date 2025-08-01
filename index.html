@@ -2,41 +2,51 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
-  <title>GeoGuessr 攻略Tips</title>
+  <title>GeoGuessr Tips</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Geoguessr Tips</h1>
-
-  <div class="toggle">
-    <button class="toggle-btn">EU</button>
-    <div class="toggle-content">
+  <div class="container">
+    <!-- サイドバー -->
+    <nav class="sidebar">
+      <h2>地域一覧</h2>
       <ul>
-        <li>横断歩道</li>
-        <li>野菜生産地域</li>
-        <li>標識、道路関係</li>
+        <li><a href="#eu">EU</a></li>
+        <li><a href="#asia">Asia</a></li>
+        <li><a href="#na">North America</a></li>
+        <li><a href="#sa">South America</a></li>
+        <li><a href="#africa">Africa</a></li>
+        <li><a href="#au">AU, NZ</a></li>
       </ul>
-    </div>
-  </div>
+    </nav>
 
-  <div class="toggle">
-    <button class="toggle-btn">Asia</button>
-    <div class="toggle-content">
-      <ul>
-        <li>日本の特徴</li>
-        <li>韓国との見分け方</li>
-      </ul>
-    </div>
-  </div>
+    <!-- メインコンテンツ -->
+    <main class="content">
+      <h1>GeoGuessr 攻略Tips</h1>
 
-  <div class="toggle">
-    <button class="toggle-btn">North America</button>
-    <div class="toggle-content">
-      <ul>
-        <li>標識の特徴</li>
-        <li>カナダとアメリカの違い</li>
-      </ul>
-    </div>
+      <section id="eu" class="toggle">
+        <button class="toggle-btn">EU</button>
+        <div class="toggle-content">
+          <ul>
+            <li>横断歩道</li>
+            <li>野菜生産地域</li>
+            <li>標識、道路関係</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="asia" class="toggle">
+        <button class="toggle-btn">Asia</button>
+        <div class="toggle-content">
+          <ul>
+            <li>日本の特徴</li>
+            <li>韓国との違い</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- 他の大陸も同様に追加 -->
+    </main>
   </div>
 
   <script src="script.js"></script>
