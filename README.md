@@ -1,7 +1,8 @@
 # geoguessr-tips
-This website introduce geoguessr tips \n
-I love Geoguessr \n
+This website introduce geoguessr tips 
 
-You love Geoguessr \n
+I love Geoguessr
 
-We are Geo friends \n
+You love Geoguessr
+
+We are Geo friends
